@@ -54,3 +54,5 @@ const stocks = [
     open: 36.58,
   },
 ];
+
+export default stocks;

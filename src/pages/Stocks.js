@@ -1,8 +1,20 @@
 import React from 'react';
+import stocks from '../data';
 
-const Stocks = () => {
+const Stocks = (props) => {
+
+console.log(props)
+
+    const stockIndex = props.match.params.symbol;
+
+    const thisStock = stocks[stockIndex];
+
+    const {name, symbol, lastPrice, change, high, low, open} = thisStock;
+
     return (
-        <h1>This is the Stocks Page</h1>
+        
+        <h1>{name}</h1>
+        
     )
 }
 
