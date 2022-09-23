@@ -2,7 +2,11 @@ import React from 'react';
 
 const About = () => {
     return (
-        <h1>This is the About Page</h1>
+        <div>
+            <h1>Welcome!</h1>
+            <p>Please enjoy our web app where you can click on different stock to see more information about them such as last price, change, high, low and open</p>
+        </div>
+
     )
 }
 
