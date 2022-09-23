@@ -16,7 +16,10 @@ console.log(props)
             <h1>{name}</h1>
             <h2>{symbol}</h2>
             <h3>Last Price: {lastPrice}</h3>
-            <h3></h3>
+            <h3>Change: {change}</h3>
+            <h4>High: {high}</h4>
+            <h4>Low: {low}</h4>
+            <h4>Open: {open}</h4>
         </div>
         
     )
